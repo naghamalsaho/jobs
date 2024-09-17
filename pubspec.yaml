@@ -1,0 +1,65 @@
+name: jobs
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  custom_clippers: ^2.0.0
+  http: ^1.1.0
+  dartz: ^0.10.1
+  lottie: ^2.7.0
+  flutter_otp_text_field: ^1.1.1
+  get_storage: ^2.1.1
+  image_picker: ^1.0.8
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.17.2
+  firebase_messaging: ^14.9.1
+  firebase_auth: ^4.19.4
+  curved_navigation_bar: ^1.0.3
+  path_provider: ^2.1.0
+  open_file: ^3.3.2
+  intl: ^0.19.0
+  avatar_glow: ^3.0.1
+  pdf: ^3.10.8
+  sa4_migration_kit: ^1.0.0
+  simple_animations: ^5.0.2
+  dropdown_search: ^5.0.6
+  file_picker: ^5.5.0
+  get: ^4.6.6
+  
+ 
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.jpeg"
+  min_sdk_android: 21
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/models/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/cairo/Cairo-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Gafata
+      fonts:
+        - asset: assets/fonts/gafata/Gafata-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/pacifico/Pacifico-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  
